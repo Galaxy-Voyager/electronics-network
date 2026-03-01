@@ -143,29 +143,6 @@
 - Сортировка: /api/nodes/?ordering=name
 - Сортировка по убыванию: /api/nodes/?ordering=-created_at
 
-## Структура проекта
-
-electronics-network/
-├── config/               # Настройки Django проекта
-│   ├── settings.py       # Основные настройки
-│   ├── urls.py          # Главные URL маршруты
-│   └── wsgi.py          # WSGI конфигурация
-├── network/              # Основное приложение
-│   ├── migrations/       # Миграции базы данных
-│   ├── admin.py         # Настройки админ-панели
-│   ├── models.py        # Модели данных
-│   ├── serializers.py   # Сериализаторы для API
-│   ├── urls.py          # URL маршруты приложения
-│   └── views.py         # ViewSet для API
-├── media/                # Медиа файлы
-├── static/               # Статические файлы
-├── .env                  # Переменные окружения
-├── .gitignore           # Игнорируемые файлы Git
-├── manage.py            # Утилита управления Django
-├── poetry.lock          # Фиксированные версии зависимостей
-├── pyproject.toml       # Зависимости проекта
-└── README.md            # Документация проекта
-
 ## Автор
 
 - GitHub: [Galaxy-Voyager](https://github.com/Galaxy-Voyager)
