@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "electronics-network"
+version = "0.1.0"
+description = "Online platform for electronics trading network"
+authors = ["Galaxy Voyager <leheln16@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.14"
+django = "^5.1"
+djangorestframework = "^3.15"
+psycopg2-binary = "2.9.*"
+python-dotenv = "1.0.*"
+django-filter = "^25.2"
+
+[tool.poetry.group.dev.dependencies]
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
